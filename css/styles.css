@@ -154,21 +154,21 @@ a {
   }
 
   .profile-link:nth-of-type(2) {
-    margin-right: 23px;
+    margin-right: 25px;
   }
 
   .profile-link:nth-of-type(3) {
-    margin-right: 24px;
+    margin-right: 27px;
   }
 
   .profile-link:nth-of-type(4) {
-    margin-right: 34px;
+    margin-right: 38px;
   }
 
   .profile-link:nth-of-type(5) {
-    margin-right: 14px;
+    margin-right: 17px;
   }
-
+  
   .profile-link:nth-of-type(5) i {
     margin-right: 4px;
   }
