@@ -1,49 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoSlab">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=RobotoSlab"
+    />
   </head>
   <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
     <section id="welcome-section">
-      <nav id="navbar" class="nav">
-        <ul class="nav-list">
-          <li>
-            <a href="#welcome-section">About</a>
-          </li>
-          <li>
-            <a href="#projects">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
       <h1>Hello, i'm Ruslan</h1>
       <p>a web developer</p>
     </section>
     <section id="projects">
       <h2 class="projects-header">Here are some of my projects</h2>
-      <div class="projects-grid"> 
-        <a href="forzyz.github.io/Survey-Form/" target="_blank" class=" project project-tile"> 
-          <img class="project-image" alt="Survey-Form" src="https://www.social-anxiety.com/wp-content/uploads/2016/11/products-lg-questionnaire.png" >
+      <div class="projects-grid">
+        <a
+          href="forzyz.github.io/Survey-Form/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            alt="Survey-Form"
+            src="https://www.social-anxiety.com/wp-content/uploads/2016/11/products-lg-questionnaire.png"
+          />
           <p class="project-title">Survey Form</p>
         </a>
-        <a href="https://forzyz.github.io/Tribute-Page/" target="_blank" class="project project-tile">
-          <img class="project-image" alt="Tribute-Page" src="https://images.unsplash.com/photo-1626644930397-54f90e92e628?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" >
+        <a
+          href="https://forzyz.github.io/Tribute-Page/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            alt="Tribute-Page"
+            src="https://images.unsplash.com/photo-1626644930397-54f90e92e628?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+          />
           <p class="project-title">Tribute Page</p>
         </a>
-        <a href="forzyz.github.io/Documentation/" target="_blank" class="project project-tile">
-          <img class="project-image" alt="Documentation" src="https://images.unsplash.com/photo-1570286424717-86d8a0082d0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80" >
+        <a
+          href="forzyz.github.io/Documentation/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            alt="Documentation"
+            src="https://images.unsplash.com/photo-1570286424717-86d8a0082d0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
+          />
           <p class="project-title">Technical Documentation</p>
         </a>
-        <a href="forzyz.github.io/Landing/" target="_blank" class="project project-tile">
-          <img class="project-image" alt="Landing" src="https://images.unsplash.com/photo-1648572062439-caa7d601c77c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" >
+        <a
+          href="forzyz.github.io/Landing/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            alt="Landing"
+            src="https://images.unsplash.com/photo-1648572062439-caa7d601c77c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          />
           <p class="project-title">Landing Page</p>
         </a>
       </div>
@@ -54,22 +95,38 @@
         <p>Check my profiles</p>
       </div>
       <div class="contact-links">
-        <a href="https://www.facebook.com/profile.php?id=100088140018750" id="profile-link" target="_blank">
+        <a
+          href="https://www.facebook.com/profile.php?id=100088140018750"
+          class="profile-link"
+          target="_blank"
+        >
           <i class="fab fa-facebook-square"></i>
           Facebook
         </a>
-        <a href="https://github.com/forzyz" class="profile-link" target="_blank">
-          <i class="fab fa-github"></i> 
+        <a
+          href="https://github.com/forzyz"
+          class="profile-link"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i>
           GitHub
         </a>
-        <a href="https://twitter.com/Gobert12818586" class="profile-link" target="_blank">
+        <a
+          href="https://twitter.com/Gobert12818586"
+          class="profile-link"
+          target="_blank"
+        >
           <i class="fab fa-twitter"></i>
           Twitter
         </a>
-        <a href="mailto:zimpuytel@gmail.com" class="profile-link" target="_blank">
+        <a
+          href="mailto:zimpuytel@gmail.com"
+          class="profile-link"
+          target="_blank"
+        >
           <i class="fas fa-at"></i>
           Gmail
-          </a>
+        </a>
         <a href="tel:380631366746" class="profile-link" target="_blank">
           <i class="fas fa-mobile-alt"></i>
           Call me
